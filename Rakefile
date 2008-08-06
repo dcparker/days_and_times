@@ -4,7 +4,7 @@ require './lib/days_and_times.rb'
 
 Dir['tasks/**/*.rake'].each { |rake| load rake }
 
-Hoe.new('days_and_times', DaysAndTimes::VERSION::STRING) do |p|
+Hoe.new('days_and_times', DaysAndTimes.VERSION) do |p|
   p.author      = 'Daniel Parker'
   p.email       = 'gems@behindlogic.com'
   p.summary     = "Natural language method chaining for Time, Durations and the like."

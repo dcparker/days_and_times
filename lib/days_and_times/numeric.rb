@@ -38,4 +38,11 @@ class Numeric
   def is_multiple_of?(num)
     self % num == 0
   end
+
+  def am
+    Time.parse("#{self}:00:00")
+  end
+  def pm
+    Time.parse("#{self+12}:00:00")
+  end
 end

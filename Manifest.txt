@@ -8,5 +8,6 @@ lib/days_and_times/duration.rb
 lib/days_and_times/numeric.rb
 lib/days_and_times/object.rb
 lib/days_and_times/time.rb
+spec/days_and_times/numeric_spec.rb
 spec/days_and_times_spec.rb
 spec/spec_helper.rb

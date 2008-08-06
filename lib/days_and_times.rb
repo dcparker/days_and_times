@@ -1,13 +1,9 @@
 $:.unshift(File.dirname(__FILE__)) unless
   $:.include?(File.dirname(__FILE__)) || $:.include?(File.expand_path(File.dirname(__FILE__)))
 
-module DaysAndTimes #:nodoc:
-  module VERSION #:nodoc:
-    MAJOR = 0
-    MINOR = 0
-    TINY  = 1
-
-    STRING = [MAJOR, MINOR, TINY].join('.')
+module DaysAndTimes
+  def self.VERSION
+    '1.0.0'
   end
 end
 
