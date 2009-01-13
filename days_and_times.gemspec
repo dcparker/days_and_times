@@ -20,13 +20,5 @@ Gem::Specification.new do |s|
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
     s.specification_version = 2
-
-    if current_version >= 3 then
-      s.add_development_dependency(%q<hoe>, [">= 1.7.0"])
-    else
-      s.add_dependency(%q<hoe>, [">= 1.7.0"])
-    end
-  else
-    s.add_dependency(%q<hoe>, [">= 1.7.0"])
   end
 end
