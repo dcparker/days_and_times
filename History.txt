@@ -1,4 +1,7 @@
-== 0.0.1 2008-08-06
+== 1.0.1 2009-11-20
 
-* 1 major enhancement:
-  * Initial release
+* Published to gemcutter.
+
+== 1.0.0 2008-08-06
+
+* Initial release

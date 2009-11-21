@@ -2,6 +2,7 @@
 
 * Homepage: http://dcparker.github.com/days_and_times
 * Code: http://github.com/dcparker/days_and_times
+* Download: http://gemcutter.com/gems/days_and_times
 
 == DESCRIPTION:
 
