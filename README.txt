@@ -1,19 +1,23 @@
 = days_and_times
 
-* http://github.com/dcparker/days_and_times
+* Homepage: http://dcparker.github.com/days_and_times
+* Code: http://github.com/dcparker/days_and_times
 
 == DESCRIPTION:
 
 Natural language method chaining for Time, Durations and the like.
 
-== FEATURES/PROBLEMS:
+== FEATURES:
 
-* Acts on singular and plural of the following methods: second, minute, hour, day, week.
-* Months are variable and do not lend themselves to concrete mathmatics, so they are not implemented.
-* The Duration class holds many treasures and enables us in many ways.
+* Singular and plural of the concrete time units (second, minute, hour, day, week) are added to the Numeric object.
+* Use the Duration class to do lots of cool things.
 * Perform mathematical operations between numbers and durations, durations and durations, and durations and numbers, and the 'unit' will be respected as expected in the algebraic rules.
-* Iterators are implemented on Duration objects, respecting the unit of time the duration was instantiated with, or using a customized iterator unit.
-* Durations can be 'anchored' to a starting time for convenience in many usages.
+* Iterate over Duration objects, by the time-unit the duration was instantiated with, or a unit of choice.
+* Durations can be 'anchored' to a begin or end time.
+
+== PROBLEMS:
+
+* Months are variable and do not lend themselves to concrete mathematics, so as of now they are not implemented.
 
 == SYNOPSIS:
 
@@ -39,8 +43,7 @@ Natural language method chaining for Time, Durations and the like.
 
 == INSTALL:
 
-  gem sources -a http://gems.github.com
-  sudo gem install dcparker-days_and_times
+  gem install days_and_times -s http://gemcutter.com
 
 == LICENSE:
 
