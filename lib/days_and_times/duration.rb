@@ -54,6 +54,12 @@ class Duration
   def abs_length
     @length
   end
+  def to_a
+    hrs = hours.to_i
+    mins = (self - hrs.hours).minutes.to_i
+    secs = (self - hrs.hours - mins.minutes).seconds.to_i
+    [hrs, mins, secs]
+  end
   def to_i
     self.abs_length.to_i
   end
